@@ -52,7 +52,7 @@ angular2-webpack-starter/
  │   |   └──humans.txt          * for humans to know who the developers are
  │   └─tests/
  |       ├──functional/         * functionnal test are here
- │       └──intern.js           * a simple test of component
+ │       └──intern.js           * configuration file
  │
  ├──tslint.json                * typescript lint config
  ├──typedoc.json               * typescript documentation generator
