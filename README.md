@@ -13,9 +13,6 @@ npm start
 
 # start functional test in other terminal
 npm run intern
-
-# if you're in China use cnpm
-# https://github.com/cnpm/cnpm
 ```
 
 ## File Structure
