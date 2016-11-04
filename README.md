@@ -1,6 +1,5 @@
 ### Quick start
 **Make sure you have Node version >= 5.0 and NPM >= 3**
-> Clone/Download the repo then edit `app.ts` inside [`/src/app/app.ts`](/src/app/app.ts)
 
 ```bash
 # clone my repo
@@ -46,12 +45,14 @@ angular2-webpack-starter/
  │   │   ├──app.e2e.ts         * a simple end-to-end test for /
  │   │   └──app.ts             * App.ts: a simple version of our App component components
  │   │
- │   └──assets/                * static assets are served here
- │       ├──icon/              * our list of icons from www.favicon-generator.org
- │       ├──service-worker.js  * ignore this. Web App service worker that's not complete yet
- │       ├──robots.txt         * for search engines to crawl your website
- │       └──humans.txt          * for humans to know who the developers are
- │
+ │   ├─assets/                * static assets are served here
+ │   |   ├──icon/              * our list of icons from www.favicon-generator.org
+ │   |   ├──service-worker.js  * ignore this. Web App service worker that's not complete yet
+ │   |   ├──robots.txt         * for search engines to crawl your website
+ │   |   └──humans.txt          * for humans to know who the developers are
+ │   └─tests/
+ |       ├──functional/         * functionnal test are here
+ │       └──intern.js           * a simple test of component
  │
  ├──tslint.json                * typescript lint config
  ├──typedoc.json               * typescript documentation generator
