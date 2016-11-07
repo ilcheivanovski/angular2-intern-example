@@ -13,6 +13,7 @@ npm start
 
 # start functional test in other terminal
 npm run intern
+```
 
 Chai provides its own set of different interfaces for providing assertions. They all do the same things, so just like Intern’s test interfaces, pick the one whose syntax you prefer:
 
@@ -20,7 +21,7 @@ Chai provides its own set of different interfaces for providing assertions. They
 The expect API, loaded from 'intern/chai!expect', looks like expect(value).to.be.true
 The should API, loaded from 'intern/chai!should', looks like value.should.be.true
 
-```
+
 
 ## File Structure
 
