@@ -17,9 +17,9 @@ npm run intern
 
 Chai provides its own set of different interfaces for providing assertions. They all do the same things, so just like Intern’s test interfaces, pick the one whose syntax you prefer:
 
-<a href="http://chaijs.com/guide/styles/#assert">The assert API, loaded from 'intern/chai!assert', looks like assert.isTrue(value)</a>
-<a href="http://chaijs.com/guide/styles/#expect">The expect API, loaded from 'intern/chai!expect', looks like expect(value).to.be.true</a>
-<a href="http://chaijs.com/guide/styles/#should">The should API, loaded from 'intern/chai!should', looks like value.should.be.true</a>
+1. <a href="http://chaijs.com/guide/styles/#assert">The assert API, loaded from 'intern/chai!assert', looks like assert.isTrue(value)</a></br>
+2. <a href="http://chaijs.com/guide/styles/#expect">The expect API, loaded from 'intern/chai!expect', looks like expect(value).to.be.true</a></br>
+3. <a href="http://chaijs.com/guide/styles/#should">The should API, loaded from 'intern/chai!should', looks like value.should.be.true</a></br>
 
 
 
