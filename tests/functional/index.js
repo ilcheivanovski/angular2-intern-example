@@ -31,7 +31,8 @@ define(function (require) {
                         console.log("Ilche" + text);
                         assert.strictEqual(text, '');
                     })
-                    .end()      
+                    .end()   
+                      
         }
     });
 
