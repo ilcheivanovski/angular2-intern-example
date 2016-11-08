@@ -21,7 +21,7 @@ Chai provides its own set of different interfaces for providing assertions. They
 2. <a href="http://chaijs.com/guide/styles/#expect">The expect API, loaded from 'intern/chai!expect', looks like expect(value).to.be.true</a></br>
 3. <a href="http://chaijs.com/guide/styles/#should">The should API, loaded from 'intern/chai!should', looks like value.should.be.true</a></br>
 
-Debugging
+### Debugging
 
 Keep in mind that JavaScript code is running in two separate environments: your test suites are run in Node.js, while the page loaded by functional tests runs in a web browser. Functional tests can be debugged with Node.js’s built-in debugger, or with the more user-friendly node-inspector. Note that these instructions are for debugging functional tests, which run in Node.js; debugging code on the test page itself should be done using the browser's debugging tools.
 
@@ -30,7 +30,7 @@ Set a breakpoint in your test code by adding a debugger statement. Since test mo
 Launch Node.js with debugging enabled, set to pause on the first line of code:
 node --debug-brk node_modules/intern/runner config=myPackage/test/intern
 Launch node-inspector by running node-inspector.
-Open Chrome (you must use Chrome as node-inspector leverages Chrome's developer tools) to:
+Open Chrome (you must use Chrome as node-inspector leverages Chrome's developer tools) to:</br>
 http://127.0.0.1:8080/debug?port=5858
 Continue code execution (F8). The tests will run until your debugger statement.
 Debug!
